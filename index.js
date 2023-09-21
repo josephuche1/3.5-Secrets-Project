@@ -19,7 +19,7 @@ app.post("/check", (req,res) => {
     }
     else{
         console.log("fail");
-        res.redirect("/");
+        res.redirect("/"); //redirects user to home page
     }
 })
 
